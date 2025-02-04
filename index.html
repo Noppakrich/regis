@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en,th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compattble"  content="IE=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+ <!--เชื่อมกับcss-->
+    <title>Register</title>
+</head>
+<body>
+    <header>Register</header>
+    <form method="POST">
+        <fieldset>
+            <pre>
+            <label for="firstname" style="font-size:30px">First Name</label><label style="font-size:20px">(ชื่อ)</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name...">
+
+
+            <label for="lastname" style="font-size:30px">Last Name</label><label style="font-size:20px">(นามสกุล)</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name...">
+            
+
+            <label for="age" style="font-size:30px">Age</label><label style="font-size:20px">(อายุ)</label>
+            <input type="number" id="age" name="age" placeholder="Enter your Age..." >
+
+
+            <label for="studentid" style="font-size:30px">Student ID</label><label style="font-size:20px">(รหัสนักศึกษา)</label>
+            <input type="text" id="studentid" name="studentid" placeholder="Enter your Student ID..." >
+
+
+            <input type="submit" value="Submit">   
+            </pre>
+        </fieldset>
+    </form>
+</body>
+</html>

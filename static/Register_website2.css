@@ -1,0 +1,30 @@
+body {
+    background-image: url("static\night_bg_sut_lg.jpg");
+    background-size: cover;
+}
+header{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 30px;
+}
+div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    background-color: white;
+}
+pre{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: -50px;
+}
