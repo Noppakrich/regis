@@ -1,0 +1,46 @@
+body {
+    background-image: url("static\night_bg_sut_lg.jpg");
+    background-size: cover;
+}
+header{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 30px;
+}
+fieldset{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: white;
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: -40px;
+}
+input{
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: -40px;
+}
+input[type="submit"] {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #00ff3c;
+    color: black;
+    cursor: pointer;
+    width: 20%;
+}
